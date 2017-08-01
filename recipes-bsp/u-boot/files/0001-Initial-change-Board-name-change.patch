@@ -1,0 +1,25 @@
+From 737659391722354e97926d530ba300f7686496dc Mon Sep 17 00:00:00 2001
+From: Greg Martin <greg.martin@oncorems.com>
+Date: Tue, 25 Jul 2017 10:53:00 -0400
+Subject: [PATCH] Initial change: Board name change
+
+---
+ board/freescale/mx6sabresd/mx6sabresd.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/board/freescale/mx6sabresd/mx6sabresd.c b/board/freescale/mx6sabresd/mx6sabresd.c
+index 80a7789..7d0593c 100644
+--- a/board/freescale/mx6sabresd/mx6sabresd.c
++++ b/board/freescale/mx6sabresd/mx6sabresd.c
+@@ -709,7 +709,7 @@ int board_late_init(void)
+ 
+ int checkboard(void)
+ {
+-	puts("Board: MX6-SabreSD\n");
++	puts("Board: Astro\n");
+ 	return 0;
+ }
+ 
+-- 
+1.8.3.1
+
